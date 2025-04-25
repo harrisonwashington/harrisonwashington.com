@@ -29,20 +29,92 @@
    <body>
       <header>
          <h1>Harrison Washington</h1>
-         <nav aria-label="Main navigation"> <a href="index.html">Work Experience</a> /
+         <nav aria-label="Main navigation">
+            <a href="index.html">Work Experience</a> /
             <a href="about.html">About</a> /
             <a href="contact.html">Contact</a> /
-            <a href="https://www.linkedin.com/in/harrison-washington/" target="_blank" rel="noopener noreferrer">Linkedin</a> / <a href="https://github.com/harrisonwashington" target="_blank" rel="noopener noreferrer">Github</a> / <a href="learning.html">learning Resources</a>
+            <a href="https://www.linkedin.com/in/harrison-washington/" target="_blank" rel="noopener noreferrer">Linkedin</a> /
+            <a href="https://github.com/harrisonwashington" target="_blank" rel="noopener noreferrer">Github</a> /
+            <a href="learning.html">learning Resources</a>
          </nav>
       </header>
 
       <main>
+         <section id="professional-summary">
+             <h2>Professional Summary</h2>
+             <p>Results-driven IT Specialist with 6+ years of experience in network administration, cloud infrastructure, cybersecurity, and IT support. Proven expertise in Windows Server, Microsoft 365, Azure, endpoint protection, and automation. Adept at resolving complex technical issues, optimizing IT environments, and enhancing security and operational efficiency. Demonstrated ability to lead teams, streamline workflows, and align IT strategies with business objectives. Achieved a 94% reduction in manual data classification through automated scanning and classification.</p>
+         </section>
+
          <h2>Work Experience</h2>
 
-         <article>
+         <article class="job-entry">
+            <h3>Infrastructure Security Engineer</h3>
+            <p class="job-details"><span class="organization">Western Electrical Contractors Association, Inc. (WECA)</span> / <time datetime="2024-11">Nov 2024</time> – <time datetime="2025-04">Apr 2025</time> / <address>Rancho Cordova, CA</address></p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+               <li>Managed and optimized Fortinet FortiGate firewalls, ensuring robust security and high performance for network infrastructure.</li>
+               <li>Proactively monitored FortiGate firewall health and traffic via FortiAnalyzer, enabling rapid response to security incidents and optimizing rules for secure communication.</li>
+               <li>Conducted regular vulnerability assessments and security audits on FortiGate systems, implementing necessary patches and configurations to mitigate identified risks.</li>
+               <li>Implemented and maintained secure remote access solutions (FortiClient, IPSec VPN) for employees and vendors.</li>
+               <li>Utilized Wireshark and Nmap for in-depth network security auditing, identifying vulnerabilities and DNS misconfigurations.</li>
+               <li>Developed and deployed automated Windows Server patch management strategies using NinjaOne and Intune, ensuring systems remained current and secure.</li>
+               <li>Leveraged PowerShell scripting to implement scheduled automation tasks, streamlining administrative processes and improving efficiency.</li>
+               <li>Conducted routine health checks and performance tuning on Windows Server 2019-2022 environments, proactively identifying and resolving issues.</li>
+               <li>Installed, configured, and managed CrowdStrike Falcon policies across diverse Windows PC and Server environments, ensuring comprehensive endpoint protection against threats (malware, ransomware, APTs).</li>
+               <li>Performed regular health checks and performance tuning of the CrowdStrike Falcon agents for optimal endpoint performance.</li>
+               <li>Managed and responded to security incidents identified by Crowdstrike Falcon, executing triage, containment, eradication, and recovery per established incident response procedures.</li>
+               <li>Led company-wide IT projects, notably a PII data scanning and remediation initiative to enhance compliance and reduce data risks.</li>
+            </ul>
+         </article>
+
+         <article class="job-entry">
+            <h3>Lead IT Specialist (Subcontractor)</h3>
+            <p class="job-details"><span class="organization">Initial Action Services (IAS)</span> / <time datetime="2023-08">Aug 2023</time> – Present / Various Locations (Seasonal Fire Seasons)</p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+               <li>Configured and deployed Starlink satellite systems to establish reliable remote connectivity in forested areas during critical operations.</li>
+               <li>Successfully set up and managed Public Address (PA) systems for various events, ensuring optimal sound quality for both in-person and online audiences.</li>
+               <li>Integrated PA systems with live-streaming equipment (using OBS and hardware interfaces) to provide seamless audio for online viewers.</li>
+               <li>Orchestrated and managed live Microsoft Teams events for Incident Management teams (Northwest Team 12, Northwest Team 10, and Southwest Area Team 4), overseeing end-to-end production processes, ensuring seamless broadcasts, and facilitating audience interaction.</li>
+               <li>Facilitated daily briefings via Microsoft Teams, enhancing communication and coordination for fire crews and leadership.</li>
+               <li>Spearheaded IT infrastructure upgrades, integrating cutting-edge technologies to support media production capabilities.</li>
+               <li>Operated and maintained professional recording equipment, ensuring readiness for high-stakes productions.</li>
+               <li>Fostered strong client relationships by delivering tailored IT and media support solutions.</li>
+               <li>Managed multiple projects concurrently, overseeing timelines, budgets, and resources effectively.</li>
+            </ul>
+         </article>
+
+         <article class="job-entry">
+            <h3>IT Consultant (Contract)</h3>
+            <p class="job-details"><span class="organization">Robert Half</span> / <time datetime="2023-09">Sep 2023</time> – <time datetime="2024-03">Mar 2024</time> / <address>San Francisco, CA</address></p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+               <li>Diagnosed and resolved complex network issues, ensuring seamless connectivity for client networks.</li>
+               <li>Maintained comprehensive documentation for network configurations, troubleshooting, and system setups.</li>
+               <li>Collaborated with cross-functional teams to identify and resolve network-related issues, reducing downtime by 10%.</li>
+               <li>Deployed and secured desktop systems to meet client specifications, ensuring compliance with security standards.</li>
+               <li>Provided technical support and IT consulting, enhancing system reliability and client satisfaction.</li>
+            </ul>
+         </article>
+
+         <article class="job-entry">
+            <h3>IT Consultant</h3>
+            <p class="job-details"><span class="organization">Voxel</span> / <time datetime="2023-01">Jan 2023</time> – <time datetime="2023-04">Apr 2023</time> / <address>San Francisco, CA</address> (C2C Contract with Washington-Systems LLC)</p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+               <li>Managed Canonical MAAS data center, Ubuntu Server, SSO, SaaS, Google Workspace, and Voxel networks, ensuring optimal performance.</li>
+               <li>Utilized Canonical MAAS and Ansible playbooks to automate the deployment of Ubuntu Linux server machines.</li>
+               <li>Automated SaaS system processes and managed procurement and MDM for Apple MacBooks, improving operational efficiency.</li>
+               <li>Ensured SOC2 and ISO 27001 compliance by implementing IT controls, mitigating security risks.</li>
+               <li>Built and managed help desk systems, resolving tickets and creating detailed technical documentation, improving resolution times by 15%.</li>
+            </ul>
+         </article>
+
+         <article class="job-entry">
             <h3>Senior Technical Consultant & Owner</h3>
-            <p><span class="organization">Washington-Systems</span> / <time datetime="2022-01">Jan 2022</time> - Present / <address>Sacramento, CA</address></p>
-            <h4>Responsibilities:</h4> <ul>
+            <p class="job-details"><span class="organization">Washington-Systems</span> / <time datetime="2022-01">Jan 2022</time> - Present / <address>Sacramento, CA</address></p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
                <li>Cisco Meraki and Ubiquiti network WAN & LAN network design, test, build, and implementation.
                </li>
                <li>Built DNS forwarding zones for customers on Google Cloud Platform and Microsoft Azure.
@@ -61,214 +133,85 @@
                </li>
                <li>Helped customers implement CIS Benchmark for Microsoft Windows, Apple macOS, Debian, CentOS.
             </ul>
-            <h4>Skills & Technologies:</h4> <dl>
-               <dt>SaaS Administration & Management</dt>
-               <dd>GCP IAM/Networking/DNS</dd>
-               <dd>Google Workspace</dd>
-               <dd>Azure AD/Networking</dd>
-            </dl>
-            <dl>
-               <dt>Networking</dt>
-               <dd>LAN & WAN network design, test, build, and implementation.</dd>
-               <dd>Cisco Meraki</dd>
-               <dd>pfsense</dd>
-            </dl>
-            <dl>
-               <dt>Hypervisor Administration</dt>
-               <dd>Hyper-V</dd>
-            </dl>
-         </article>
-
-         <article>
-            <h3>Information Technology Support Engineer</h3>
-            <p><span class="organization">Fivetran</span> / <time datetime="2021-08">Aug 2021</time> - <time datetime="2022-04">Apr 2022</time> / <address>Oakland, CA</address></p>
-            <h4>Responsibilities:</h4> <ul>
-               <li>Worked with and provided support to various SaaS platforms including Google Workspace, GCP, Okta, Jamf Pro,
-                  Azure, and AWS, managing users and groups.
+            <h4>Skills & Technologies:</h4>
+            <ul class="skills-technologies-list">
+               <li>SaaS Administration & Management
+                  <ul>
+                     <li>GCP IAM/Networking/DNS</li>
+                     <li>Google Workspace</li>
+                     <li>Azure AD/Networking</li>
+                  </ul>
                </li>
-               <li>Configure and automated new employee desktop deployments for MacOS via Jamf Pro
+               <li>Networking
+                  <ul>
+                     <li>LAN & WAN network design, test, build, and implementation.</li>
+                     <li>Cisco Meraki</li>
+                     <li>pfsense</li>
+                  </ul>
                </li>
-               <li>Troubleshot hardware and software related issues for all end users.
-               </li>
-               <li>Provided customer service, remote & on perm troubleshooting of computer hardware, Windows, macOS, and network
-                  connections.
-               </li>
-               <li>Maintained Cisco Meraki and Ubiquiti networks. SaaS Management
+               <li>Hypervisor Administration
+                  <ul>
+                     <li>Hyper-V</li>
+                  </ul>
                </li>
             </ul>
-             <h4>Skills & Technologies:</h4> <dl>
-               <dt>SaaS Management</dt>
-               <dd>Google Workspace/GCP</dd>
-               <dd>Okta</dd>
-               <dd>Jamf Pro</dd>
-               <dd>Slack</dd>
-               <dd>Azure AD</dd>
-               <dd>AWS IAM</dd>
-            </dl>
-            <dl>
-               <dt>Desktop Administration</dt>
-               <dd>macOS configuration via Jamf Pro</dd>
-               <dd>Troubleshoot hardware/software related issues for end users</dd>
-            </dl>
-            <dl>
-               <dt>Customer Service</dt>
-               <dd>Remote/on Perm Trouble-shooting on computer hardware, Windows operating system, MacOS operating system, network
-                  connections, etc.
-               </dd>
-               <dd>Application training, documentation, and overviews</dd>
-               <dd>New Employee Onboarding</dd>
-               <dd>Reply in a timely manner to open support ticks</dd>
-            </dl>
-            <dl>
-               <dt>Network Management</dt>
-               <dd>Meraki network management</dd>
-               <dd>Ubiquiti network management</dd>
-            </dl>
-            <dl>
-               <dt>Asset Management</dt>
-               <dd>Maintain a “ready to go” inventory of imaged MacBook laptop computers and all components used for new employees
-                  or system replacements
-               </dd>
-               <dd>Google Meet Kits</dd>
-               <dd>Printers</dd>
-               <dd>Computer peripheral</dd>
-               <dd>TV’s / Computer monitors</dd>
-               <dd>Software license</dd>
-            </dl>
          </article>
 
-         <article>
+         <article class="job-entry">
+            <h3>Information Technology Support Engineer</h3>
+            <p class="job-details"><span class="organization">Fivetran</span> / <time datetime="2021-08">Aug 2021</time> – <time datetime="2022-04">Apr 2022</time> / <address>Oakland, CA</address></p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+                <li>Provided technical support and administration for a variety of critical SaaS platforms and cloud services, including Google Workspace, GCP, Okta, Jamf Pro, Azure, and AWS IAM, managing user accounts, groups, and access permissions.</li>
+                <li>Configured and automated macOS desktop deployments using Jamf Pro, streamlining the onboarding process for new employees.</li>
+                <li>Delivered comprehensive hardware and software troubleshooting support to all end users, resolving technical issues efficiently.</li>
+                <li>Provided remote and on-site technical assistance for computer hardware, Windows and macOS operating systems, and network connectivity problems.</li>
+                <li>Maintained and managed network infrastructure utilizing Cisco Meraki and Ubiquiti network systems.</li>
+                <li>Managed IT assets, maintaining a ready inventory of imaged MacBook laptops and peripherals for employee provisioning and system replacements.</li>
+            </ul>
+         </article>
+
+         <article class="job-entry">
             <h3>Information Technology Support Specialist</h3>
-            <p><span class="organization">Vode Lighting LLC</span> / <time datetime="2020-08">Aug 2020</time> - <time datetime="2021-08">Aug 2021</time> / <address>Sonoma, CA</address></p>
-             <h4>Skills & Technologies:</h4> <dl>
-               <dt>Security Research</dt>
-               <dd>CISA Cybersecurity Bulletin</dd>
-               <dd>CISA Best Practices</dd>
-               <dd>CISA Insights</dd>
-               <dd>CISA Cyber Safety</dd>
-               <dd>CISA Cybersecurity Governance</dd>
-            </dl>
-            <dl>
-               <dt>Network Security</dt>
-               <dd>Network vulnerability scanning with Nmap</dd>
-               <dd>Security Onion</dd>
-            </dl>
-            <dl>
-               <dt>Network Management</dt>
-               <dd>Ubiquiti Unifi Systems</dd>
-               <dd>SonicWALL Firewall/VPN</dd>
-            </dl>
-            <dl>
-               <dt>Product Solutions Consulting</dt>
-               <dd>Anti-phishing email training</dd>
-               <dd>Online whiteboard software</dd>
-               <dd>Home Network Security</dd>
-            </dl>
-            <dl>
-               <dt>Virtualization</dt>
-               <dd>Hyper-V</dd>
-               <dd>VMware ESXi</dd>
-            </dl>
-            <dl>
-               <dt>Windows Server Administration</dt>
-               <dd>Backup & Sync</dd>
-               <dd>Remote server management via PowerShell</dd> <dd>Active Directory</dd>
-               <dd>User management in Microsoft 365 admin center</dd>
-            </dl>
-            <dl>
-               <dt>Desktop Administration</dt>
-               <dd>Windows configuration / Installation</dd>
-               <dd>MacOS configuration / Installation</dd>
-               <dd>ESET configuration / Installation</dd>
-               <dd>Assistance / Configuration / Installation for all supported applications (Adobe, Autodesk, Box, Dropbox,
-                  GoToMeeting, Google G Suite, Smartsheet, Fishbowl Database, Vode seals system, Solidworks, FedEx Ship Manager, UPS
-                  WorldShip)
-               </dd>
-            </dl>
-            <dl>
-               <dt>Customer Service</dt>
-               <dd>User and application training documentation and overviews</dd>
-               <dd>Fishbowl Database</dd>
-               <dd>Remote/on Perm Trouble-shooting on computer hardware, Windows operating system, MacOS operating system, network
-                  connections, etc
-               </dd>
-            </dl>
-            <dl>
-               <dt>Remote troubleshooting</dt>
-               <dd>GoToAssist / ConnectWise Control Support</dd>
-            </dl>
-            <dl>
-               <dt>Asset Management</dt>
-               <dd>Account auditing</dd>
-               <dd>Windows Desktops / Laptops</dd>
-               <dd>Computer peripheral</dd>
-               <dd>Apple Laptops / Phones</dd>
-               <dd>Polycom phone systems</dd>
-               <dd>Printers</dd>
-               <dd>TV / Computer monitors</dd>
-               <dd>Software license</dd>
-               <dd>Maintain a consistent pool of laptops, and other IT equipment</dd>
-               <dd>Maintain a “ready to go” inventory of imaged desktop/laptop computers and all components used for new employees
-                  or system replacements
-               </dd>
-               <dd>Responsible for maintaining Inventory Database, updating continuously the various equipment assignments and
-                  employee locations
-               </dd>
-            </dl>
+            <p class="job-details"><span class="organization">Vode Lighting LLC</span> / <time datetime="2020-08">Aug 2020</time> – <time datetime="2021-08">Aug 2021</time> / <address>Sonoma, CA</address></p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+                <li>Managed and administered network infrastructure, including Ubiquiti Unifi Systems and SonicWALL Firewall/VPN, ensuring secure and reliable connectivity.</li>
+                <li>Conducted network vulnerability scanning using tools like Nmap and Security Onion to identify and address security risks.</li>
+                <li>Provided technical support and user management for Microsoft 365 services and Active Directory.</li>
+                <li>Administered Windows Server environments, including backup/sync operations and remote management via PowerShell.</li>
+                <li>Managed and configured virtualization platforms including Hyper-V and VMware ESXi.</li>
+                <li>Provided comprehensive desktop support for Windows and macOS configurations, installations, and troubleshooting for a wide range of business applications (e.g., Adobe, Autodesk, Box, Smartsheet, Solidworks, etc.).</li>
+                <li>Developed and delivered user training and documentation for applications and IT processes.</li>
+                <li>Managed IT assets, maintaining accurate inventory records, ensuring a consistent pool of ready-to-deploy equipment, and tracking equipment assignments.</li>
+                <li>Assisted with implementing security best practices based on CISA bulletins and conducted anti-phishing email training for users.</li>
+            </ul>
          </article>
 
-         <article>
+         <article class="job-entry">
             <h3>Technology Help Desk Technician</h3>
-            <p><span class="organization">CalRecycle</span> / <time datetime="2019-12">Dec 2019</time> - <time datetime="2020-03">Mar 2020</time> / <address>Sacramento, CA</address></p>
-             <h4>Skills & Technologies:</h4> <dl>
-               <dt>Windows Server Administration</dt>
-               <dd>Active Directory user management </dd>
-            </dl>
-            <dl>
-               <dt>Desktop Administration</dt>
-               <dd>Windows configuration / Installation via Powershell</dd>
-            </dl>
-            <dl>
-               <dt>Troubleshooting</dt> <dd>Troubleshooting on computer hardware, Windows operating system, network connections, etc</dd>
-            </dl>
-            <dl>
-               <dt>Customer Service</dt>
-               <dd>Helped in the operation to get over 800 employees prepared for work from home orders during the 2019-2020
-                  pandemic
-               </dd>
-               <dd>User and application training documentation and overviews</dd>
-               <dd>On Perm Trouble-shooting on computer hardware, Windows operating system, MacOS operating system, network
-                  connections, etc
-               </dd>
-               <dd>Responsible for maintaining the Bar Scan Inventory Database, updates continuously the various equipment
-                  assignments and employee locations
-               </dd>
-               <dd>Citrix virtualization assistance</dd>
-               <dd>Assistance on all supported applications (Word, Excel, PowerPoint, Access, etc)</dd>
-               <dd>GoToWebinar and GoToMeeting/LiveMeeting web conferencing support including scheduling, support and
-                  recording/editing
-               </dd>
-               <dd>On and off-site conference IT support, which consists of equipment set up and take down, network wired and
-                  wireless connectivity, print services, etc
-               </dd>
-            </dl>
-            <dl>
-            <dt>Asset Management</dt>
-            <dd>Windows Desktops / Laptops</dd>
-            <dd>Computer peripheral</dd>
-            <dd>Phone systems</dd>
-            <dd>TV’s / Computer monitors</dd>
-            <dd>Maintain a consistent pool of laptops, and other IT equipment</dd>
-            <dd>Maintain a “ready to go” inventory of imaged desktop/laptop computers and all components used for new employees
-               or system replacements
-            </dd>
-            <dd>Responsible for maintaining Inventory Database, updating continuously the various equipment assignments and
-               employee locations
-            </dd>
-         </dl>
+            <p class="job-details"><span class="organization">CalRecycle</span> / <time datetime="2019-12">Dec 2019</time> – <time datetime="2020-03">Mar 2020</time> / <address>Sacramento, CA</address></p>
+            <h4>Responsibilities:</h4>
+            <ul class="responsibilities-list">
+                <li>Provided essential technical support and troubleshooting for computer hardware, Windows and macOS operating systems, and network connections for a large user base.</li>
+                <li>Managed Active Directory user accounts and assisted with Windows configuration and installation via PowerShell.</li>
+                <li>Played a key role in preparing over 800 employees for remote work during the 2019-2020 pandemic, providing critical technical assistance and support.</li>
+                <li>Delivered user and application training documentation and overviews.</li>
+                <li>Provided on-premise troubleshooting support for hardware, operating systems, and network issues.</li>
+                <li>Maintained the Bar Scan Inventory Database, continuously updating equipment assignments and locations.</li>
+                <li>Assisted users with Citrix virtualization and supported standard office applications (Word, Excel, PowerPoint, Access).</li>
+                <li>Provided web conferencing support for GoToWebinar and GoToMeeting, including scheduling, technical assistance, recording, and editing.</li>
+                <li>Supported on and off-site conferences, managing equipment setup/teardown, wired/wireless network connectivity, and print services.</li>
+            </ul>
          </article>
 
-         <hr /> <section class="skills-section"> <h2>Skills</h2> <div class="skills-list"> <section> <h3>Linux</h3>
+         <hr />
+
+         <section class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+               <section>
+                 <h3>Linux</h3>
                  <ul>
                     <li>OS:FreeNAS / CentOS/ Fedora Server / Debian / Ubuntu</li>
                     <li>Computer / Server Configuration</li>
@@ -283,7 +226,8 @@
                  </ul>
                </section>
 
-               <section> <h3>Windows Server</h3>
+               <section>
+                 <h3>Windows Server</h3>
                  <ul>
                     <li>Server Configuration</li>
                     <li>Active Directory</li>
@@ -297,7 +241,14 @@
                     <li>Active Directory</li>
                  </ul>
                </section>
-            </div> </section> <hr /> <section> <h2>HomeLab</h2> <ul>
+            </div>
+         </section>
+
+         <hr />
+
+         <section>
+            <h2>HomeLab</h2>
+            <ul>
                <li>Windows Server 2019</li>
                <li>Linux server lab env</li>
                <li>FreeNAS Server</li>
